@@ -16,11 +16,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-Tobias Ruijs(vervangen door jouw naam)
+  Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-BLauw
-  #### Je focus: n.t.b
+  hier je startniveau (kies uit zwart, rood óf blauw)
+
+  #### Je focus:
   hier je focus (kies uit responsive óf surface plane)
  
 </details>
@@ -35,15 +36,15 @@ BLauw
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.tui.nl/vliegtickets/
+  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/TuiWeb1.jpg" width="375px" alt="Tui homepage">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/TuiWeb2.jpg" width="375px" alt="Tui vakantie zoeken">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
