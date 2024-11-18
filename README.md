@@ -38,12 +38,12 @@ Blauw
   https://https://www.pringles.com/nl/home.html
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/PringlesHomepage.jpg" width="375px" alt="Tui homepage">
+  Pringles homepage
+  <img src="readme-images/PringlesHomepage.jpg" width="375px" alt="Pringles homepage">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/PringlesSoorten.jpg" width="375px" alt="Tui vakantie zoeken">
+Pringles soorten
+  <img src="readme-images/PringlesSoorten.jpg" width="375px" alt="Pringles soorten">
  
 </details>
 
