@@ -57,7 +57,12 @@ Pringles soorten
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 	- Tab functie skipt het Focal point consent op de homepagina
-	- 
+  - nav is een algehele sectie dus geen optie bij die losse links te komen.
+	- Tab functie gaat wel langs de Nav
+  -Linkjes niet duidelijk wat het doet of waar het naartoe gaat
+  -vanuit Pringles logo kom je niet verder met de VO-down
+  only to the side.
+  
 
 </details>
 
