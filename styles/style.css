@@ -1,6 +1,4 @@
-/**************/
-/* CSS REMEDY */
-/**************/
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
@@ -10,9 +8,9 @@
 
 
 
-/*********************/
+
 /* CUSTOM PROPERTIES */
-/*********************/
+
 :root {
 	/* startje */
 	--color-text:#111;
@@ -27,7 +25,7 @@
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
+
 
 /* General Reset */
 body, ul, li {
@@ -46,6 +44,8 @@ body {
 }
 
 /* Header Styling */
+
+
 header {
     position: fixed;
     top: 0;
@@ -54,7 +54,6 @@ header {
     background-color: #D82E35;
     color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    
 }
 
 nav {
@@ -90,7 +89,13 @@ transform: scale(1.2);
 
 /* Body Content */
 main {
-    margin-top: 80px; /* Adjust for header height */
+    margin-top: 80px; 
     padding: 2rem;
     text-align: center;
+}
+
+.button{ 
+    display: flex;
+    justify-content: flex-end;
+    
 }
