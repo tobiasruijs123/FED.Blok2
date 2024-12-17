@@ -36,7 +36,7 @@ body, ul, li {
 body {
     background-color: #fff;
     font-size: 1.25vw;
-    font-family: andes;
+    font-family: Arial, Helvetica, sans-serif;
     overflow-y: auto !important;
     color: #000000;
     line-height: 1;
@@ -54,7 +54,28 @@ header {
     background-color: #D82E35;
     color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
 }
+
+ header > img {
+    width: 57px; 
+    height: 72px;
+    position: relative;
+    left:1rem;
+    bottom:-1rem;
+    max-width:10em;
+}
+
+header > ul {
+    display:flex;
+    justify-content:end;
+}
+
+header > button {
+    height: 30px;
+    width: 30px;
+}
+
 
 nav {
     display: flex;
@@ -74,18 +95,25 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: red;
     font-weight: bold;
-    transition: color 0.3s ease;
 }
 
+
+
+
 a:hover {
-    color: orange;
+    color: lightcoral;
+    transform: scale(1.2);
+    transition: color 1s ease;
+    
 }
 
 button:hover { 
-transform: scale(1.2);
+    transform: scale(1.2);
 }
+
+
 
 /* Body Content */
 main {
@@ -94,8 +122,44 @@ main {
     text-align: center;
 }
 
-.button{ 
-    display: flex;
-    justify-content: flex-end;
-    
+section > button  {
+    font-weight: bold;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    background: #ffffff;
+    border-color: none;
 }
+
+section > img {
+    width: 100%;
+    height: auto;
+}
+/* Footer Content */
+
+button.streepjes li:nth-of-type(1) button {
+    /* grid om de 3 spans in het midden van de button te positioneren */
+    display:grid;
+    place-items:center;
+    
+    /* de button is rond */
+    border-radius:50%;
+  }
+  
+  /* alledrie de streepjes */
+  button.streepjes li:nth-of-type(1) button span {
+    /* alledrie de spans in de eerste kolom en rij */
+    /* ze staan dan over elkaar heen*/
+    grid-row-start:1;
+    grid-column-start:1;
+    
+    /* grootte en kleur van de streepjes */
+    width:1.2em;
+    height:.2em;
+    background-color:var(--color-button-text);
+    
+    /* transities duren .5s */
+    transition-duration:.5s;
+  }
+  
